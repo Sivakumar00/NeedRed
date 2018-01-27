@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224130416826",
+    "firebase_url": "https://needred-de525.firebaseio.com",
+    "project_id": "needred-de525",
+    "storage_bucket": "needred-de525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224130416826:android:d93493b6becffc93",
+        "android_client_info": {
+          "package_name": "com.siva.needred"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224130416826-7jocgeg1pbd294ekj7i1koa4om0t2o1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siva.needred",
+            "certificate_hash": "e72eff0a880fc37d1eb99c49f2622a71f8d09a2f"
+          }
+        },
+        {
+          "client_id": "224130416826-v130e0ua4ltpbfgkc6sv1tmidlqqlg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLiQbVu4cxWzcJ4ZXm29WN3s9wDAT9unI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224130416826-v130e0ua4ltpbfgkc6sv1tmidlqqlg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

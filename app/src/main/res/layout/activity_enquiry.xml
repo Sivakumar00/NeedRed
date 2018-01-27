@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.siva.needred.EnquiryActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout1"
+        android:layout_marginTop="79dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default">
+
+        <EditText
+            android:id="@+id/enq_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textInputLayout1"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default">
+
+        <EditText
+            android:id="@+id/enq_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Place / Hospital"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/textInputLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/enq_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint="Your Name"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="40dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default">
+
+        <EditText
+            android:id="@+id/enq_blood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:hint=" Blood Group- format: [A +ve/A -ve]"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        android:text="Details to Claim Help"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="31dp"
+        android:background="@color/colorAccent"
+        android:text="R E Q U E S T   B L O O D"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="26sp" />
+
+</RelativeLayout>

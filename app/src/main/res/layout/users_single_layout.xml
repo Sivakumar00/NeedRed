@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/user_single_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_single_blood"
+        android:layout_alignStart="@+id/user_single_blood"
+        android:layout_below="@+id/user_single_blood"
+        android:layout_marginTop="26dp"
+        android:text="PhoneNumber"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_single_image"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/user_single_image"
+        android:capitalize="words"
+        android:inputType="textCapWords"
+        android:text="Display Name"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_single_blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_single_name"
+        android:layout_alignStart="@+id/user_single_name"
+        android:layout_below="@+id/user_single_name"
+        android:layout_marginTop="5dp"
+        android:capitalize="words"
+        android:text="Blood Group"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_single_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_single_phone"
+        android:layout_alignStart="@+id/user_single_phone"
+        android:layout_below="@+id/user_single_phone"
+        android:layout_marginTop="5dp"
+        android:capitalize="words"
+        android:text="address"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+</RelativeLayout>
